@@ -1,0 +1,91 @@
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card {
+  background: white;
+  border-radius: 22px;
+  padding: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.04);
+}
+
+.card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.card__city {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card__country {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 2px;
+}
+
+.card__icon {
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+.card__mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.card__temp {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.card__tempValue {
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.card__tempUnit {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.card__desc {
+  text-align: right;
+}
+
+.card__condition {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.card__feels {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 2px;
+}
+
+.card__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.stat__label {
+  font-size: 10px;
+  opacity: 0.55;
+  margin-bottom: 4px;
+}
+
+.stat__value {
+  font-weight: 700;
+}
