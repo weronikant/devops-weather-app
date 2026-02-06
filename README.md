@@ -1,6 +1,6 @@
-# Programowanie Front-end - Aplikacja pogodowa
+# Nowatorski projekt - Aplikacja pogodowa
 
-W tym repozytorium znajduje sie projekt semestralny, na przedmiot Programowanie Front-end
+W tym repozytorium znajduje sie projekt semestralny, na przedmiot Nowatorski projekt indywidualny
 
 ## Jak uruchomić projekt
 
